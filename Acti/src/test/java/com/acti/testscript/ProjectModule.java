@@ -1,5 +1,11 @@
 package com.acti.testscript;
 
-public class ProjectModule {
+import org.testng.Reporter;
+import org.testng.annotations.Test;
 
+public class ProjectModule {
+	@Test
+public void createProject() {
+	Reporter.log("createProject",true);
+}
 }
